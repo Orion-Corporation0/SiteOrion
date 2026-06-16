@@ -19,7 +19,7 @@
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#sobre">Sobre Nós</a></li>
                 <li><a href="#equipe">Equipe Orion</a></li>
-                <li><a href="#contato">Fale Conosco</a></li>
+                <li><a href="#faq">Fale Conosco</a></li>
             </ul>
             <div class="menu-toggle">☰</div>
         </nav>
@@ -83,7 +83,7 @@
             <div class="conteudo-card">
                 <h3>Aconchego nas montanhas</h3>
                 <p>A pagina da pousada foi desenvolvida para exibir as opções de hospedagem de forma clara e atrativa.</p>
-                <a href="#">Ver projeto →</a>
+                <a href="https://pw-ecru-seven.vercel.app/">Ver projeto →</a>
             </div>
         </div>
 
@@ -93,7 +93,7 @@
             <div class="conteudo-card">
                 <h3>Chalé</h3>
                 <p>A pagina da pousada foi desenvolvida para exibir as opções de hospedagem de forma clara e atrativa.</p>
-                <a href="#">Ver projeto →</a>
+                <a href="https://pw-ecru-seven.vercel.app/">Ver projeto →</a>
             </div>
         </div>
 
@@ -160,7 +160,7 @@
              </div>
 
              <div class="card">
-                <img class="avatar" src="./img/gabriel.jpeg"  alt="">
+                <img class="avatar avatar-gabriel" src="./img/gabriel.jpeg" alt="">
 
                 <h5>Gabriel G.B. Oliveira</h5>
                
@@ -175,7 +175,7 @@
              </div>
 
              <div class="card">
-                 <img class="avatar" src="./img/geovanna.png"  alt="">
+                 <img class="avatar avatar-geovanna" src="./img/geovanna.png" alt="">
 
                  <h5>Geovanna S.P. Lino</h5>
                
@@ -205,7 +205,7 @@
              </div>
 
              <div class="card">
-                 <img class="avatar" src="./img/julia.jpeg"  alt="">
+                 <img class="avatar avatar-julia" src="./img/julia.jpeg" alt="">
 
                  <h5>Julia R. Jesus</h5>
                
@@ -284,15 +284,83 @@
        </div>
      </section>
    
-   <!-- adicionem fale conosco q envia para o email aq -->
+<section id="faq" class="faq-section">
+    <div class="faq-row-container">
+        
+        <div class="faq-col-perguntas">
+            <h2>Perguntas Frequentes</h2>
+            <div class="faq-container">
+                
+                <div class="faq-item">
+                    <button class="faq-questao">Quais tipos de soluções a Orion desenvolve? <span class="faq-icon">&#10095;</span></button>
+                    <div class="faq-resp">
+                        <p>A Orion é especializada no desenvolvimento de soluções digitais personalizadas, incluindo sites institucionais, landing pages, portfólios e sistemas sob medida.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-questao">Quanto custa para desenvolver um sistema? <span class="faq-icon">&#10095;</span></button>
+                    <div class="faq-resp">
+                        <p>O custo varia de acordo com a complexidade e funcionalidades. Trabalhamos com uma etapa inicial de diagnóstico para fornecer um orçamento preciso.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-questao">O site já vem otimizado para celulares? <span class="faq-icon">&#10095;</span></button>
+                    <div class="faq-resp">
+                        <p>Sim! Todos os nossos projetos são desenvolvidos com design responsivo, adaptando-se perfeitamente a computadores, tablets e smartphones.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-questao">Como posso solicitar um orçamento? <span class="faq-icon">&#10095;</span></button>
+                    <div class="faq-resp">
+                        <p>Você pode enviar uma mensagem pelo formulário ao lado ou direto pelos nossos canais do WhatsApp e Instagram no rodapé abaixo.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="faq-col-form">
+            <h3>Fale Conosco</h3>
+    
+            <p id="mensagem-sucesso" class="msg-sucesso-topo"></p>
+
+            <form action="https://formsubmit.co/orion.empresatcc@gmail.com" method="POST" class="form-faq" id="meuFormulario">
+                <input type="hidden" name="_captcha" value="false">
+        
+                <div class="input-duplo">
+                    <input type="text" name="name" placeholder="Seu Nome" required>
+                    <input type="email" name="email" placeholder="Seu E-mail" required>
+                </div>
+
+        <select name="_subject" required>
+            <option value="" disabled selected>Assunto do contato</option>
+            <option value="Orçamento de Projeto">Solicitar Orçamento</option>
+            <option value="Dúvida / Informações">Dúvidas ou Informações</option>
+                    <option value="Parceria">Proposta de Parceria</option>
+            <option value="Outro">Outros</option>
+        </select>
+
+        <textarea name="message" rows="3" placeholder="Sua mensagem..." required></textarea>
+        
+        <button type="submit" class="btn-enviar-faq" id="btnEnviar">Enviar Mensagem</button>
+            </form>
+        </div>
+        
+    </div>
+</section>
+
+
    
 <footer>
     <section id="contato">
-        <h2 class="titulo-contato">Fale conosco</h2>
+        <h2 class="titulo-contato">Contate-nos</h2>
             <div class="texto-contato">
                 <p>
                   Se você tiver dúvidas, sugestões ou precisar de mais informações sobre os serviços da ORION, entre em contato conosco. Nossa equipe está
-                 sempre pronta para atendê-lo e oferecer as melhores soluções para suas necessidades. Mande sua mensagem, estaremos retornando o
+                 sempre pronta para atendê-lo e oferecer as melhores soluções para suas necessidades. Mande sua mensagem ou siga-nos, estaremos retornando o
                   mais breve possível.
                 </p>
                 <br>
@@ -304,10 +372,6 @@
 
                  <a href="https://www.instagram.com/orion.com_?igsh=MWkxY3dnbjN5eHV0OA==" class="botao">
                     <img src="./img/logo-insta.png" alt="">
-                 </a>
-    
-                 <a href="#" class="botao">
-                    <img src="./img/logo-email.png" alt="">
                  </a>
                 </div>
          </div>
