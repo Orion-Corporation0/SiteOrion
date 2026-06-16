@@ -12,16 +12,16 @@
 <body>
     <header>
         <nav class="navbar">
-            <div class="menu-toggle">☰</div>
+               <img src="img/Logo.png" alt="Orion logo: stylized figure with raised arms inside a circular design with stars, representing reaching for the sky" class="logo">
             <ul class="menu">
-                <li><img src="img/Logo.png" alt="Orion logo: stylized figure with raised arms inside a circular design with stars, representing reaching for the sky" class="logo"></li>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#parceiros">Parceiros</a></li>
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#sobre">Sobre Nós</a></li>
-                <li><a href="#equipe">  Equipe Orion</a></li>
+                <li><a href="#equipe">Equipe Orion</a></li>
                 <li><a href="#contato">Fale Conosco</a></li>
             </ul>
+            <div class="menu-toggle">☰</div>
         </nav>
     </header>
 
@@ -34,45 +34,72 @@
     </section>
 
     <section id="parceiros">
-        <h2>Parceiros</h2>
+        <h2>Parceiros</h2> 
+          <div class="texto-parceiros">
+            <p>Contamos com parceiros excepcionais que foram  fundamentais na construção da <span>ORION</span>.
+                <br> 
+                Com o apoio de GENESYS, DRACOL e HÉLIX, conseguimos consolidar nossa empresa como uma referência em tecnologia.</p>
+        </div>
         <div class="parceiros-container">
             <div class="item-parceiro">
                 <img src="img/luminaLogo.png" alt="Lumina">
                 <h3>Lumina</h3>
+                <h4>parceira</h4>
             </div>
             <div class="item-parceiro">
                 <img src="img/GenesysLogo.png" alt="Genesys">
                 <h3>Genesys</h3>
+                <h4>parceira</h4>
             </div>
             <div class="item-parceiro">
                 <img src="img/helixLogo.png" alt="Hélix">
                 <h3>Hélix</h3>
+                <h4>parceira</h4>
             </div>
         </div>
         <br>
-        <div class="texto-parceiros">
-            <p>Contamos com parceiros excepcionais que foram <br>
-                fundamentais na construção da <span>ORION</span>. Com o apoio de <br>
-                GENESYS, DRACOL e HÉLIX, conseguimos consolidar <br>
-                nossa empresa como uma referência em tecnologia.</p>
-        </div>
+       
     </section>
 
  <section id="projetos" class="projetos">
-      <h2>Projetos</h2>
-      <div class="projetos-flex">
-        <div class="projetos-carossel">
-             <div class="imgProjeto">
-                <img src="./img/projeto-1.png" alt="Imagem do Projeto 1">
-                <img src="./img/projeto-2.png" alt="Imagem do Projeto 2">
-                <img src="./img/projeto-3.png" alt="Imagem do Projeto 3">
-            </div>   
-            <button class="esquerda">&#10094;</button>
-            <button class="direita">&#10095;</button>         
+
+    <h2>Projetos</h2>
+
+    <div class="projetos-cards">
+
+        <div class="projeto-card">
+            <img src="./img/projeto-1.1.png" alt="Projeto 1">
+
+            <div class="conteudo-card">
+                <h3>Kauã Fresh</h3>
+                <p>O nosso site de sucos foi criado para refrescar e melhorar seu dia com uma de nossas bebidas.</p>
+                <a href="#">Ver projeto →</a>
+            </div>
         </div>
-        <img class="boneco-logo" src="./img/projeto.png" alt="">
+
+        <div class="projeto-card">
+            <img src="./img/projeto-2.2.png" alt="Projeto 2">
+
+            <div class="conteudo-card">
+                <h3>Aconchego nas montanhas</h3>
+                <p>A pagina da pousada foi desenvolvida para exibir as opções de hospedagem de forma clara e atrativa.</p>
+                <a href="#">Ver projeto →</a>
+            </div>
+        </div>
+
+        <div class="projeto-card">
+            <img src="./img/projeto-3.3.png" alt="Projeto 3">
+
+            <div class="conteudo-card">
+                <h3>Chalé</h3>
+                <p>A pagina da pousada foi desenvolvida para exibir as opções de hospedagem de forma clara e atrativa.</p>
+                <a href="#">Ver projeto →</a>
+            </div>
+        </div>
+
     </div>
-    </section>
+
+</section>
 
     <section id="sobre" class="sobre">
         <h2>Sobre Nós</h2>
@@ -259,10 +286,6 @@
    
    <!-- adicionem fale conosco q envia para o email aq -->
    
-   <div class="imgFooter">
-     <img src="./img/sobre-nos.jpeg" class="imgFooter-img">
-   </div>
-
 <footer>
     <section id="contato">
         <h2 class="titulo-contato">Fale conosco</h2>
